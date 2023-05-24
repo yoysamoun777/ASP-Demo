@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Website Y.samoun</h1>
+   
+    <input type="text" id="input" />
+</div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+
+    $('#input').val(100)
+    $('#input').change(function () {
+        alert($('#input').val())
+    })
+</script>
